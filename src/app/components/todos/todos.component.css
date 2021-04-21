@@ -1,0 +1,86 @@
+.todo {
+  display: flex;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+  box-shadow: 2px 2px 2px black;
+}
+
+.todo:nth-child(even) {
+  background-color: #eee;
+  box-shadow: none;
+}
+
+.todo:last-of-type {
+  border-bottom: 0;
+}
+
+.todo .id {
+  flex: 1 1 50px;
+}
+
+.todo .content {
+  flex: 1 1 100%;
+}
+
+.todo.done .content {
+  text-decoration: line-through;
+}
+
+.todo-input {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  appearance: none;
+  border: none;
+  background-color: #f3f3f3;
+  margin-top: 15px;
+  font-size: 20px;
+  outline: none;
+  width: 50%;
+}
+
+.todo-submit {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: #fe4880;
+  color: #fff;
+  margin: 15px auto;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.todo-submit:hover {
+  cursor: pointer;
+  color: #fe4880;
+  background-color: #fff;
+  /* border: 2px solid #fe4880; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  margin-bottom: 1rem;
+}
+
+.delete {
+  padding: 0.2rem;
+  color: blue;
+  background: #ee0000c2;
+  font-weight: bold;
+}
+
+.delete:hover {
+  cursor: pointer;
+  background-color: #e05959c2;
+}

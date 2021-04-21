@@ -1,0 +1,10 @@
+.app {
+  /* border: 5px solid #df462321; */
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.2rem;
+}
